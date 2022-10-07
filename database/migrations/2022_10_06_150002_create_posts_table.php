@@ -17,7 +17,7 @@ return new class extends Migration
             $table->increments('id');
             $table->string('title', 150);
             $table->string('content');
-            $table->timestamps('create_date');
+            $table->timestamps();
         });
     }
 
