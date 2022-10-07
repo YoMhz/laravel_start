@@ -7,7 +7,6 @@
     <title>Mon mini-blog</title>
 </head>
 <body>
-    
 
 <h1>Nos articles<h1>
     <ul>
