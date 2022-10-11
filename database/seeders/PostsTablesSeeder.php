@@ -17,13 +17,13 @@ class PostsTablesSeeder extends Seeder
     {
         DB::table('posts')->insert([
         ['title' => "Le premier article",
-            'content' => "Voici le contenu de l'article",
+            'content' => "Pour commencer voici le contenu du premier article",
         ],
         ['title' => "Le second article",
-            'content' => "Voici le contenu de l'article",
+            'content' => "Ensuite voici le contenu du second article",
         ],
         ['title' => "Le troisieme article",
-            'content' => "Voici le contenu de l'article",
+            'content' => "Et pour finir voici le contenu du troisième article",
         ],
         ]);
     }
