@@ -13,7 +13,7 @@
     <h1>Nos articles<h1>
             <ul>
                 @foreach($articles as $article)
-                <li>{{$article->title}}</li>
+                <li><a href="{{ $article->id }}">{{ $article->title }}</a></li>
                 @endforeach
                 <!-- {{ dd($articles) }} -->
             </ul>

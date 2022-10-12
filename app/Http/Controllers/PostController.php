@@ -12,4 +12,13 @@ class PostController extends Controller
             'articles' => Post::all()
         ]);
     }
+
+    public function show(POST $post)
+    {
+        // $post = Post::findOrFail($id);
+
+        return view('article', [
+            'article' => $post
+        ]);
+    }
 }
