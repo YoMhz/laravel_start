@@ -16,8 +16,8 @@ return new class extends Migration
         Schema::create('posts', function (Blueprint $table) {
             $table->increments('id');
             $table->string('title', 150);
-            $table->string('content');
-            $table->timestamps('create_date');
+            $table->text('content');
+            $table->timestamps();
         });
     }
 
